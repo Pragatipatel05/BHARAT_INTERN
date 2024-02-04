@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="Styles.css">
+        <title>Wether Website</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <section class="inputs">
+                <input type="text" placeholder="Enter Your City Name..." id="cityinput">
+                <button placeholder="submit" id="add" style="background-color: transparent; border-radius: 5px; padding: 2px; margin: 7px;"><i class="material-icons">search</i> </button>
+
+                <section class="display">
+                  <div class="wrapper">
+                    <h2 id="cityoutput"></h2>
+                  </div>
+                    
+                  <div class="info">
+                    <i class="material-icons">cloud</i>
+                    <p id="description"></p>
+                  </div>
+
+                  <div class="temperature" style="align-items: center;">
+                    <i class="material-icons">thermostat</i>
+                    <p id="temp">ºC</p>
+                  </div>
+
+                  <div class="windspeed">
+                    <p id="wind"></p>
+                    <i class="material-icons">air</i>
+                  </div>
+                  
+               </section>
+           </section>
+        </div>
+
+        <script src="index.js"></script>
+        
+    </body>
+</html>
